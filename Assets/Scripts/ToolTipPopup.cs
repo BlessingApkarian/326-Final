@@ -9,17 +9,17 @@ namespace DapperDino.TooltipUI
 {
     public class TooltipPopup : MonoBehaviour
     {
-        [SerializeField] private GameObject popupCanvasObject;
+        [SerializeField] private GameObject popupCanvasObject; // to enable and disable popup
         [SerializeField] private RectTransform popupObject;
         [SerializeField] private TextMeshProUGUI infoText;
-        [SerializeField] private Vector3 offset;
-        [SerializeField] private float padding;
+        [SerializeField] private Vector3 offset; // for mouse position
+        [SerializeField] private float padding; // makes popup not leave screen
 
-        private Canvas popupCanvas;
+        private Canvas popupCanvas; 
 
         private void Awake()
         {
-            popupCanvas = popupCanvasObject.GetComponent<Canvas>();
+            popupCanvas = popupCanvasObject.GetComponent<Canvas>(); // get actual canvas 
         }
 
         private void Update()
@@ -29,7 +29,7 @@ namespace DapperDino.TooltipUI
 
         private void FollowCursor()
         {
-            if (!popupCanvasObject.activeSelf) { return; }
+            if (!popupCanvasObject.activeSelf) { return; } 
 
             Vector3 newPos = Input.mousePosition + offset;
             newPos.z = 0f;
@@ -55,13 +55,13 @@ namespace DapperDino.TooltipUI
         {
             StringBuilder builder = new StringBuilder();
 
-            builder.Append("<size=35>").Append(item.ColouredName).Append("</size>").AppendLine();
+            builder.Append("<size=15>").Append(item.ColouredName).Append("</size>").AppendLine();
             builder.Append(item.GetTooltipInfoText());
 
             infoText.text = builder.ToString();
 
-            popupCanvasObject.SetActive(true);
-            LayoutRebuilder.ForceRebuildLayoutImmediate(popupObject);
+            popupCanvasObject.SetActive(true); // enable popup
+            LayoutRebuilder.ForceRebuildLayoutImmediate(popupObject); // ensure size is correct
         }
 
         public void HideInfo()
