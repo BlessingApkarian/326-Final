@@ -22,8 +22,8 @@ public class GenerateEnemies : MonoBehaviour
     {
         while(count > 0)
         {
-            xPos = Random.Range(-40, 9);
-            zPos = Random.Range(-140, -78);
+            xPos = Random.Range(-xRange, xRange);
+            zPos = Random.Range(-zRange, zRange);
 
             RaycastHit hit;
             Vector3 raycastPos = new Vector3(xPos, 1000, zPos);

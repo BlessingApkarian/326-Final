@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5761032713009837864}
   - component: {fileID: 8713722710759018524}
   - component: {fileID: 2447594221538575522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6735571840466180685}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MASH1_Instancer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 6492535959232543154}
   - component: {fileID: 5867606884426304427}
   - component: {fileID: 5223803503659823304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 1423863203726426963}
   - component: {fileID: 543435928248137675}
   - component: {fileID: 4613199039845559229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 2354982761180475943}
   - component: {fileID: 734096219969328262}
   - component: {fileID: 8886600705524950369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1368242945051675695}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: aiStandIn3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1576603550787985796}
   - component: {fileID: 5808390475581737626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 4218501322816211734}
   - component: {fileID: 5808390475581737625}
   - component: {fileID: 5808390475581737624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 7027777122716208710}
   - component: {fileID: 2894049423977326805}
   - component: {fileID: 794720677243033841}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 1015906571219718547}
   - component: {fileID: 6769706686966468019}
   - component: {fileID: 4513110735490455970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -724,7 +724,7 @@ GameObject:
   - component: {fileID: 1453887203809828688}
   - component: {fileID: 6062555680001280423}
   - component: {fileID: 4011562309345786117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 5850708668102377153}
   - component: {fileID: 5488153514214494445}
   - component: {fileID: 3688868213763898813}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -882,7 +882,7 @@ GameObject:
   - component: {fileID: 3669025790575811678}
   - component: {fileID: 7772346987161108608}
   - component: {fileID: 6932930379634069875}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -961,7 +961,7 @@ GameObject:
   - component: {fileID: 8143291695127934723}
   - component: {fileID: 3515705165984766631}
   - component: {fileID: 4689619752540269540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: water2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1040,7 @@ GameObject:
   - component: {fileID: 4283671917067823127}
   - component: {fileID: 2362888319297824828}
   - component: {fileID: 1923880595389352173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1117,7 +1117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 976245377232970230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: aiStandIn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1147,7 +1147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5164359609777012252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: aiStandIn1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 8043213657620400613}
   - component: {fileID: 4136478984915230397}
   - component: {fileID: 5418980832587043654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1256,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 878689060541760475}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: aiStandIn2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1288,7 +1288,7 @@ GameObject:
   - component: {fileID: 1882871788706630601}
   - component: {fileID: 8786600250885020191}
   - component: {fileID: 2881072910027547501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1367,7 +1367,7 @@ GameObject:
   - component: {fileID: 2681503574386626934}
   - component: {fileID: 8760392079379852583}
   - component: {fileID: 1177528276005814272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCylinder15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1446,7 +1446,7 @@ GameObject:
   - component: {fileID: 2663604937817317565}
   - component: {fileID: 5664536797391957603}
   - component: {fileID: 2095369745352630377}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pCube8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
