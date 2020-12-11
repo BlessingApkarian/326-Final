@@ -35,7 +35,7 @@ public class GenerateMushrooms : MonoBehaviour
 
             Instantiate(shroom, new Vector3(xPos, yPos, zPos), Quaternion.identity);
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.01f);
             count -= 1;
         }
     }

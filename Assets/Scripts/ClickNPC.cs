@@ -78,7 +78,7 @@ public class ClickNPC : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             popupCanvasObject.SetActive(false);
-        }
+        }   
     }
 
     void OpenDialog()

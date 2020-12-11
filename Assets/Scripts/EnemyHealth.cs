@@ -24,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (ClickNPC.hitEnemy)
         {
-            ModifyHealth(1);
+            ModifyHealth(3);
             if(currHealth <= 0)
             {
                 Destroy(gameObject);

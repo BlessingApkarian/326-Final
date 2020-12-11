@@ -23,6 +23,15 @@ public class PlayerMovement_mine : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            speed *= 5;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = 5f;
+        }
+
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized; // move x & z, normalize makes us able to move diagonal
 
         if (direction.magnitude >= 0.1f) // keys are being pressed
