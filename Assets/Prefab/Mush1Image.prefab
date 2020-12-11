@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5395351418087924910}
   - component: {fileID: 602899151515390863}
   - component: {fileID: 5386978320065121119}
+  - component: {fileID: 4526211318434591403}
   m_Layer: 5
   m_Name: Mush1Image
   m_TagString: Untagged
@@ -128,3 +129,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4526211318434591403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763814138136457983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043623074b3100e43aa252667e738070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tooltipPopup: {fileID: 5341359613174915333, guid: 32186b18c90cccb4c9c5fd7385c6a997,
+    type: 3}
+  item: {fileID: 11400000, guid: 7ed0b51e80c2ba949bf9d717f004ceb7, type: 2}

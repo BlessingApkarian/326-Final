@@ -65,11 +65,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mushroom
+  m_text: '<size=15><color=#29B741>Mushroom</color></size>
 
-    Heal 5 health
+    Common
 
-    Sells for 1g'
+    <color=green>Use:
+    Heal by 3 health</color>
+
+    Sell Price: 1 Gold'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class ClickNPC : MonoBehaviour
 {
+
+    [SerializeField] private GameObject popupCanvasObject;
+    [SerializeField] private RectTransform popupObject;
+
     private Inventory inventory;
     public GameObject mushroom1Button;
 
@@ -70,11 +74,18 @@ public class ClickNPC : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            popupCanvasObject.SetActive(false);
+        }
     }
 
     void OpenDialog()
     {
-        Debug.Log("Hello Izabelle");
+        Debug.Log("Hello Izabelle ---- press space to Exit");
+
+        popupCanvasObject.SetActive(true); // enable popup
     }
 
     void DoDamage()

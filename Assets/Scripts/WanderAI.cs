@@ -35,8 +35,8 @@ public class WanderAI : MonoBehaviour
         }
 
         Vector3 dist = transform.position - walkPoint;
-        Debug.Log("VEL: " + agent.velocity);
-        Debug.Log("RD: " + agent.remainingDistance);
+        //Debug.Log("VEL: " + agent.velocity);
+        //Debug.Log("RD: " + agent.remainingDistance);
         if (dist.magnitude < 5f)
         {
             walkPointSet = false;
@@ -64,7 +64,7 @@ public class WanderAI : MonoBehaviour
         }
         if (Physics.Raycast(raycastPos, Vector3.down, out hit, Mathf.Infinity, ground))
         {
-            Debug.DrawLine(raycastPos, hit.point, Color.green, 15f);
+            //Debug.DrawLine(raycastPos, hit.point, Color.green, 15f);
             
             yPos = hit.point.y;
             //Debug.Log(yPos);
